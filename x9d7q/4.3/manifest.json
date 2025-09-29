@@ -1,0 +1,23 @@
+{
+  "name": "DVOL",
+  "version": "4.3",
+  "encoding": "base85+fernet(zlib)",
+  "kdf": {
+    "type": "PBKDF2HMAC",
+    "hash": "SHA256",
+    "iterations": 200000,
+    "salt_b85": "kx-%K<NKAIhWk%L%|X(-"
+  },
+  "files": {
+    "blob": {
+      "url": "https://YOUR-USERNAME.github.io/dvol-hosting/dvol/4.3/dvol-4.3.enc.blob",
+      "sha256": "f591b17a2ecab0aa562a25b6be877f5e8afe578393b9920440121f1dbc61d64f",
+      "size_bytes": 2925
+    },
+    "plaintext": {
+      "sha256": "b523a7d4d82a7c894fdfe54ca894de96dcd3cd683a6557c67470567ecef12979",
+      "note": "Checksum of original plaintext for integrity reference."
+    }
+  },
+  "updated": "2025-09-29T00:19:05Z"
+}
